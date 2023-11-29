@@ -1,70 +1,30 @@
-# Parallel Processing Weather Dashboard
+# Parallel Algorithm Comparison for Weather Data Analysis
 
 ## Introduction
-This weather dashboard is a web application that provides real-time weather data visualization. It utilizes parallel processing to handle multiple data streams efficiently, ensuring fast response times even with high traffic.
+This Jupyter Notebook is dedicated to demonstrating and comparing two parallel processing algorithms for weather data analysis. It focuses on calculating the distance between various cities and a given point, leveraging parallel processing techniques to optimize performance.
+
+## Overview
+The notebook presents a practical comparison between two different parallel processing approaches:
+1. **Thread-based Parallelism**: Utilizes Python's threading module to divide the task among multiple threads.
+2. **Queue-based Threading Parallelism**: Employs a queue-based system combined with threading for task distribution and management.
+
+Both methods are applied to the same task: calculating the distance from a set point to various cities worldwide, demonstrating the efficiency and execution time of each approach.
 
 ## Features
-- Real-time weather updates
-- Parallel data processing
-- Interactive charts and graphs
-- Responsive design for various devices
-
-## Technologies
-- Flask: A lightweight WSGI web application framework.
-- Jinja: A modern and designer-friendly templating language for Python.
-- Parallel Processing: Utilized for handling concurrent data streams.
-
-## Getting Started
-
-### Prerequisites
-- Python 3.6+
-- Flask
-- Other dependencies listed in `requirements.txt`
-
-### Installation
-1. Clone the repository:
-   ```
-   git clone https://github.com/your-username/weather-dashboard.git
-   ```
-2. Navigate to the project directory:
-   ```
-   cd weather-dashboard
-   ```
-3. Install the requirements:
-   ```
-   pip install -r requirements.txt
-   ```
-
-### Running the Application
-1. Run the Flask server:
-   ```
-   flask run
-   ```
-2. Visit `http://127.0.0.1:5000` in your web browser to view the dashboard.
+- Detailed implementation of two parallel processing algorithms.
+- Comparison of execution times and efficiency between thread-based and queue-based parallelism.
+- Interactive cells for executing and comparing both methods.
+- Visualization of results for easier comparison and understanding.
+- Inclusion of a dataset containing city coordinates for practical demonstration.
 
 ## Usage
-Explain how users can interact with the dashboard, including any login credentials if necessary.
+- The notebook guides the user through the implementation and execution of both parallel processing methods.
+- Users can directly run the cells to observe the performance of each algorithm.
+- The notebook allows for adjustments in parameters like the number of threads to experiment with different configurations.
 
 ## Development
-Guidelines for developers who want to contribute to the codebase.
+This notebook serves as an educational tool for understanding and comparing parallel processing techniques in Python. It is structured to facilitate easy understanding and modification of the code for further experimentation.
 
 ## Testing
-Explain how to run the automated test suite.
-
-## Deployment
-Instructions for deploying the application to a live server.
-
-## Contributing
-Guidelines for how to contribute to the project. Include details on pull requests and code of conduct.
-
-## License
-State the license under which this application is released.
-
-## Acknowledgments
-Credits to anyone who contributed to the project.
-
-## Contact
-Your contact information for users with inquiries or issues.
-
-## Screenshots
-Include some screenshots of the dashboard in action.
+- The notebook includes examples and scenarios for testing both parallel processing methods.
+- Users can input different coordinates or modify the number of threads to test the robustness and scalability of each approach.

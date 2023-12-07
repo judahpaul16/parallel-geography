@@ -1,7 +1,7 @@
-# Parallel Algorithm Comparison for Weather Data Analysis
+# Parallel Algorithm Comparison for Geographical Data Analysis
 
 ## Introduction
-This Jupyter Notebook is dedicated to demonstrating and comparing two parallel processing algorithms for weather data analysis. It focuses on calculating the distance between various cities and a given point, leveraging parallel processing techniques to optimize performance.
+This Jupyter Notebook is dedicated to demonstrating and comparing two parallel processing algorithms for geographical data analysis. It focuses on calculating the distance between various cities and a given point, leveraging parallel processing techniques to optimize performance.
 
 ## Overview
 The notebook presents a practical comparison between two different parallel processing approaches:
@@ -23,7 +23,7 @@ Both methods are applied to the same task: calculating the distance from a set p
 - The notebook allows for adjustments in parameters like the number of threads to experiment with different configurations.
 
 ## Development
-This notebook serves as an educational tool for understanding and comparing parallel processing techniques in Python. It is structured to facilitate easy understanding and modification of the code for further experimentation.
+This notebook serves as an educational tool for understanding and comparing parallel processing techniques in Python, with a focus on geographical data analysis. It is structured to facilitate easy understanding and modification of the code for further experimentation.
 
 ## Testing
 - The notebook includes examples and scenarios for testing both parallel processing methods.
